@@ -1,0 +1,191 @@
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .header {
+    border: none;
+
+    &__logo {
+      width: 99px;
+    }
+
+    &__search {
+      display: none;
+    }
+
+    &__nav {
+      display: none;
+
+      &-mob {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+      }
+    }
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .promo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__title {
+      font-size: 48px;
+      line-height: 59px;
+      text-align: center;
+    }
+
+    &__subtitle {
+      font-size: 16px;
+      text-align: center;
+    }
+
+    &__link {
+      font-size: 14px;
+      justify-content: center;
+    }
+  }
+
+  .heading {
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .filter {
+    padding-bottom: 0;
+    flex-direction: column;
+    gap: 14px;
+    &__list {
+      flex-direction: column-reverse;
+    }
+  }
+
+  .for {
+    grid-template-columns: repeat(4, 1fr);
+
+    &__item {
+      grid-column: 1 / -1;
+      height: 375px;
+      font-size: 28px;
+      line-height: 34px;
+
+      &_big {
+        height: 244px;
+      }
+    }
+  }
+
+  .filter-form {
+    height: 910px;
+    max-width: 286px;
+    left: 0;
+    right: 0;
+    &__content {
+      flex-wrap: nowrap;
+      max-height: none;
+      min-width: auto;
+    }
+
+    &__btn {
+      align-self: normal;
+    }
+  }
+
+  .special-offer {
+    padding-top: 32px;
+  }
+
+  .cart {
+    padding-bottom: 48px;
+    margin-top: 92px;
+
+    &__name-box {
+      display: none;
+    }
+    &-heading {
+      text-align: center;
+    }
+
+    &__item {
+      &-img {
+        display: none;
+      }
+    }
+
+    &__info {
+      &-head {
+        font-size: 18px;
+        line-height: 22px;
+      }
+
+      &-price {
+        font-size: 14px;
+        line-height: 17px;
+      }
+    }
+    &__btn {
+      width: 164px;
+      font-size: 12px;
+      line-height: 15px;
+      &-box {
+        gap: 14px;
+      }
+    }
+
+    &__form{
+      max-width: 343px;
+      align-items: center;
+
+     
+
+      &-data{
+        padding-right: 28px;
+      }
+    }
+  }
+
+  .product {
+    width: 343px;
+    &__name {
+      font-size: 18px;
+      line-height: 22px;
+    }
+
+    &-box {
+      justify-content: center;
+      row-gap: 33px;
+    }
+
+    &__price {
+      font-size: 18px;
+      line-height: 22px;
+    }
+  }
+
+  .catalog {
+    padding-top: 36px;
+    
+    &__link {
+      margin-top: 32px;
+      margin-bottom: 32px;
+    }
+  }
+
+  .special-offer__link {
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+
+  .footer {
+    &__content {
+      justify-content: center;
+      gap: 70px;
+    }
+  }
+}
