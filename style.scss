@@ -586,14 +586,24 @@ body {
       -5px -5px 10px rgba(0, 0, 0, 0.5);
   }
 
+  &:hover{
+    .product__btn{
+      display: block;
+      display: flex;
+      gap: 22px ;
+      align-items: center;
+    }
+  }
+
   &__btn {
+    
     position: absolute;
     z-index: 1;
     display: flex;
-    align-items: center;
-    gap: 20px;
+    
     right: 12px;
     top: 10px;
+    display: none;
 
     &-img {
       background-color: transparent;
